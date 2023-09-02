@@ -1,0 +1,32 @@
+Docker Engine:
+Docker Engine is the core component of Docker. It is responsible for building and running containers. It includes the Docker daemon (background service), REST API for interacting with Docker, and the Docker command-line interface (CLI) for managing containers.
+
+Container:
+A container is a lightweight and standalone executable package that includes an application and its dependencies. Containers are isolated from the host system and can run consistently across different environments, making them highly portable.
+
+Image:
+An image is a read-only template used to create containers. It includes the application code, libraries, and configurations required to run an application. Images are used as the basis for containers.
+
+Dockerfile:
+A Dockerfile is a text file that contains instructions for building a Docker image. It specifies the base image, adds files and directories, sets environment variables, and defines how the application should be configured within the container.
+
+Registry:
+A Docker registry is a repository for Docker images. The Docker Hub (hub.docker.com) is a public registry where you can find and share Docker images. You can also set up private registries for your organization's images.
+
+Containerization:
+Containerization is the process of packaging an application and its dependencies into a container. It provides isolation, security, and consistency for running applications in different environments.
+
+Docker Compose:
+Docker Compose is a tool for defining and running multi-container Docker applications. It uses a YAML file to specify the services, networks, and volumes required for a multi-container application.
+
+Volume:
+A volume is a Docker feature that allows data to be persisted and shared between containers. Volumes are used to store and manage data that needs to persist beyond the lifecycle of a single container.
+
+Container Orchestration:
+Container orchestration platforms, such as Kubernetes and Docker Swarm, are used to manage and scale containers in production environments. They automate tasks like container deployment, scaling, load balancing, and service discovery.
+
+Swarm Mode:
+Docker Swarm is a built-in orchestration tool for Docker. It allows you to create and manage a cluster of Docker nodes to deploy and manage services across multiple containers.
+
+Kubernetes (K8s):
+Kubernetes is a powerful open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications. It is commonly used alongside Docker for large-scale container deployments.
