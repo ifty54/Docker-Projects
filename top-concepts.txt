@@ -1,5 +1,6 @@
 Docker Engine:
-Docker Engine is the core component of Docker. It is responsible for building and running containers. It includes the Docker daemon (background service), REST API for interacting with Docker, and the Docker command-line interface (CLI) for managing containers.
+Docker Engine is the core component of Docker. It is responsible for building and running containers. 
+It includes the Docker daemon (background service), REST API for interacting with Docker, and the Docker command-line interface (CLI) for managing containers.
 
 Container:
 A container is a lightweight and standalone executable package that includes an application and its dependencies. Containers are isolated from the host system and can run consistently across different environments, making them highly portable.
